@@ -93,6 +93,11 @@ class LockTable {
       return getLockVal(blk) < 0;
    }
    
+   
+   /** 
+    * @param blk
+    * @return boolean
+    */
    private boolean hasOtherSLocks(BlockId blk) {
       return getLockVal(blk) > 1;
    }

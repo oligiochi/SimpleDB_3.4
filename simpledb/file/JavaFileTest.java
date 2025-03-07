@@ -23,6 +23,13 @@ public class JavaFileTest {
       g.close();
    }
    
+   
+   /** 
+    * @param f
+    * @param pos
+    * @return int
+    * @throws IOException
+    */
    private static int readInt(RandomAccessFile f, int pos) throws IOException {
       f.seek(pos);
       return f.readInt();

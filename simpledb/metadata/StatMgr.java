@@ -66,6 +66,13 @@ class StatMgr {
       tcat.close();
    }
    
+   
+   /** 
+    * @param tblname
+    * @param layout
+    * @param tx
+    * @return StatInfo
+    */
    private synchronized StatInfo calcTableStats(String tblname, 
                               Layout layout, Transaction tx) {
       int numRecs = 0;

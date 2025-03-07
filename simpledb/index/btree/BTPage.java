@@ -130,6 +130,11 @@ public class BTPage {
          makeDefaultRecord(blk, pos);
    }
    
+   
+   /** 
+    * @param blk
+    * @param pos
+    */
    private void makeDefaultRecord(BlockId blk, int pos) {
       for (String fldname : layout.schema().fields()) {
          int offset = layout.offset(fldname);

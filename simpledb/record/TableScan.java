@@ -48,6 +48,11 @@ public class TableScan implements UpdateScan {
       return true;
    }
 
+   
+   /** 
+    * @param fldname
+    * @return int
+    */
    public int getInt(String fldname) {
       return rp.getInt(currentslot, fldname);
    }

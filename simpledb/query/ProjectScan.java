@@ -36,6 +36,11 @@ public class ProjectScan implements Scan {
       return s.next();
    }
    
+   
+   /** 
+    * @param fldname
+    * @return int
+    */
    public int getInt(String fldname) {
       if (hasField(fldname))
          return s.getInt(fldname);

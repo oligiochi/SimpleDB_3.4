@@ -116,6 +116,11 @@ public class BufferMgr {
       return buff;
    }
    
+   
+   /** 
+    * @param blk
+    * @return Buffer
+    */
    private Buffer findExistingBuffer(BlockId blk) {
       for (Buffer buff : bufferpool) {
          BlockId b = buff.block();

@@ -45,6 +45,11 @@ public class SingleTablePlanTest {
 		s.close();
 	}
 	
+	
+	/** 
+	 * @param n
+	 * @param p
+	 */
 	private static void printStats(int n, Plan p) {
 		System.out.println("Here are the stats for plan p" + n);
 		System.out.println("\tR(p" + n + "): " + p.recordsOutput());

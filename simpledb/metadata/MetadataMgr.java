@@ -27,6 +27,12 @@ public class MetadataMgr {
       tblmgr.createTable(tblname, sch, tx);
    }
    
+   
+   /** 
+    * @param tblname
+    * @param tx
+    * @return Layout
+    */
    public Layout getLayout(String tblname, Transaction tx) {
       return tblmgr.getLayout(tblname, tx);
    }

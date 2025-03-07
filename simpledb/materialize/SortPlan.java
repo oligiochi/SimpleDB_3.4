@@ -111,6 +111,11 @@ public class SortPlan implements Plan {
       return temps;
    }
    
+   
+   /** 
+    * @param runs
+    * @return List<TempTable>
+    */
    private List<TempTable> doAMergeIteration(List<TempTable> runs) {
       List<TempTable> result = new ArrayList<>();
       while (runs.size() > 1) {

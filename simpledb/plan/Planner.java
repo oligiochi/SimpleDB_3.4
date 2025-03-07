@@ -67,6 +67,10 @@ public class Planner {
    private void verifyQuery(QueryData data) {
    }
 
+   
+   /** 
+    * @param data
+    */
    // SimpleDB does not verify updates, although it should.
    private void verifyUpdate(Object data) {
    }

@@ -30,6 +30,12 @@ public class NetworkResultSet extends ResultSetAdapter {
       }
    }
    
+   
+   /** 
+    * @param fldname
+    * @return int
+    * @throws SQLException
+    */
    public int getInt(String fldname) throws SQLException {
       try {
          return rrs.getInt(fldname);

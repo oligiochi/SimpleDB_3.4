@@ -20,6 +20,12 @@ public abstract class ResultSetMetaDataAdapter implements ResultSetMetaData {
       throw new SQLException("operation not implemented");
    }
    
+   
+   /** 
+    * @param column
+    * @return String
+    * @throws SQLException
+    */
    public String getColumnClassName(int column) throws SQLException {
       throw new SQLException("operation not implemented");
    }

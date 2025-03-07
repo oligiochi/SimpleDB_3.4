@@ -44,6 +44,11 @@ public class Buffer {
       return blk;
    }
 
+   
+   /** 
+    * @param txnum
+    * @param lsn
+    */
    public void setModified(int txnum, int lsn) {
       this.txnum = txnum;
       if (lsn >= 0)

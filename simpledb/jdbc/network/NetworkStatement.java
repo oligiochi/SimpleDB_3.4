@@ -32,6 +32,12 @@ public class NetworkStatement extends StatementAdapter {
       }
    }
 
+   
+   /** 
+    * @param cmd
+    * @return int
+    * @throws SQLException
+    */
    public int executeUpdate(String cmd) throws SQLException {
       try {
          return rstmt.executeUpdate(cmd);

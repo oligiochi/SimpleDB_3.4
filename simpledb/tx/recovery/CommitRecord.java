@@ -24,6 +24,10 @@ public class CommitRecord implements LogRecord {
       return COMMIT;
    }
 
+   
+   /** 
+    * @return int
+    */
    public int txNumber() {
       return txnum;
    }

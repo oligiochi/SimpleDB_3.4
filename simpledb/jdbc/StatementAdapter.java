@@ -19,6 +19,10 @@ public abstract class StatementAdapter implements Statement {
       throw new SQLException("operation not implemented");
    }
    
+   
+   /** 
+    * @throws SQLException
+    */
    public void cancel() throws SQLException {
       throw new SQLException("operation not implemented");
    }

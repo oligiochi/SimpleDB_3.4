@@ -112,6 +112,11 @@ public class BTreeDir {
       return new DirEntry(splitval, newblk.number());
    }
 
+   
+   /** 
+    * @param searchkey
+    * @return BlockId
+    */
    private BlockId findChildBlock(Constant searchkey) {
       int slot = contents.findSlotBefore(searchkey);
       if (contents.getDataVal(slot+1).equals(searchkey))

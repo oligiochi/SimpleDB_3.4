@@ -27,6 +27,10 @@ public class OptimizedProductPlan implements Plan {
       return bestplan.open();
    }
    
+   
+   /** 
+    * @return int
+    */
    public int blocksAccessed() {
       return bestplan.blocksAccessed();
    }

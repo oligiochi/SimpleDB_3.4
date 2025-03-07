@@ -93,6 +93,11 @@ public class RecordPage {
       }
    }
 
+   
+   /** 
+    * @param slot
+    * @return int
+    */
    public int nextAfter(int slot) {
       return searchAfter(slot, USED);
    }

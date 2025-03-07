@@ -24,6 +24,10 @@ public class Constant implements Comparable<Constant> {
       return ival;
    }
    
+   
+   /** 
+    * @return String
+    */
    public String asString() {
       return sval;
    }

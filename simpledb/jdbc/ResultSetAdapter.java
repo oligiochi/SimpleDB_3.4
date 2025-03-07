@@ -25,6 +25,10 @@ public abstract class ResultSetAdapter implements ResultSet {
       throw new SQLException("operation not implemented");
    }
    
+   
+   /** 
+    * @throws SQLException
+    */
    public void afterLast() throws SQLException {
       throw new SQLException("operation not implemented");
    }

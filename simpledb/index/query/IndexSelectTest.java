@@ -39,6 +39,12 @@ public class IndexSelectTest {
 		tx.commit();
 	}
 	
+	
+	/** 
+	 * @param ii
+	 * @param p
+	 * @param c
+	 */
 	private static void useIndexManually(IndexInfo ii, Plan p, Constant c) {
 		// Open a scan on the table.
 		TableScan s = (TableScan) p.open();  //must be a table scan

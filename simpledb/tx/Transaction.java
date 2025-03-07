@@ -216,6 +216,10 @@ public class Transaction {
       return fm.blockSize();
    }
    
+   
+   /** 
+    * @return int
+    */
    public int availableBuffs() {
       return bm.available();
    }

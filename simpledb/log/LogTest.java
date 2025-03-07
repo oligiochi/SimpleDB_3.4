@@ -24,6 +24,10 @@ public class LogTest {
       printLogRecords("The log file now has these records:");
    }
 
+   
+   /** 
+    * @param msg
+    */
    private static void printLogRecords(String msg) {
       System.out.println(msg);
       Iterator<byte[]> iter = lm.iterator();

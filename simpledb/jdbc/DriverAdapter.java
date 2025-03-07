@@ -22,6 +22,13 @@ public abstract class DriverAdapter implements Driver {
       throw new SQLException("operation not implemented");
    }
    
+   
+   /** 
+    * @param url
+    * @param info
+    * @return Connection
+    * @throws SQLException
+    */
    public Connection connect(String url, Properties info) throws SQLException {
       throw new SQLException("operation not implemented");
    }

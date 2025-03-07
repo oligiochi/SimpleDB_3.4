@@ -79,6 +79,10 @@ public class SimpleDB {
       return mdm;
    }
    
+   
+   /** 
+    * @return Planner
+    */
    public Planner planner() {
       return planner;
    }

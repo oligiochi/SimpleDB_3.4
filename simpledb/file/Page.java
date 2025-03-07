@@ -26,6 +26,11 @@ public class Page {
       return bb.getInt(offset);
    }
 
+   
+   /** 
+    * @param offset
+    * @param n
+    */
    public void setInt(int offset, int n) {
       bb.putInt(offset, n);
    }

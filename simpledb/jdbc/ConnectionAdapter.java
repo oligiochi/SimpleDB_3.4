@@ -20,6 +20,10 @@ public abstract class ConnectionAdapter implements Connection {
       throw new SQLException("operation not implemented");
    }
    
+   
+   /** 
+    * @throws SQLException
+    */
    public void close() throws SQLException {
       throw new SQLException("operation not implemented");
    }

@@ -21,6 +21,10 @@ public class BlockStats {
         this.statsR.put(block.fileName(), this.statsR.getOrDefault(block.fileName(), 0) + 1);    
     }
 
+    
+    /** 
+     * @param block
+     */
     // Registra una scrittura sul blocco solo se il BlockId corrisponde a quello monitorato
     public void logWriteBlock(BlockId block){
         this.statsW.put(block.fileName(), this.statsW.getOrDefault(block.fileName(), 0) + 1);

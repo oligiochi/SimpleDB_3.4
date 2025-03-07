@@ -52,6 +52,10 @@ public class TempTable {
       return layout;
    }
 
+   
+   /** 
+    * @return String
+    */
    private static synchronized String nextTableName() {
       nextTableNum++;
       return "temp" + nextTableNum;

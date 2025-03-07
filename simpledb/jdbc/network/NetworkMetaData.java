@@ -30,6 +30,12 @@ public class NetworkMetaData extends ResultSetMetaDataAdapter {
       }
    }
    
+   
+   /** 
+    * @param column
+    * @return String
+    * @throws SQLException
+    */
    public String getColumnName(int column) throws SQLException {
       try {
          return rmd.getColumnName(column);

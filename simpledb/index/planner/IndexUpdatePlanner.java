@@ -55,6 +55,12 @@ public class IndexUpdatePlanner implements UpdatePlanner {
       return 1;
    }
    
+   
+   /** 
+    * @param data
+    * @param tx
+    * @return int
+    */
    public int executeDelete(DeleteData data, Transaction tx) {
       String tblname = data.tableName();
       Plan p = new TablePlan(tx, tblname, mdm);

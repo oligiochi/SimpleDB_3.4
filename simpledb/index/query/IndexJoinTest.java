@@ -37,6 +37,13 @@ public class IndexJoinTest {
 		tx.commit();
 	}
 
+	
+	/** 
+	 * @param p1
+	 * @param p2
+	 * @param ii
+	 * @param joinfield
+	 */
 	private static void useIndexManually(Plan p1, Plan p2, IndexInfo ii, String joinfield) {
 		// Open scans on the tables.
 		Scan s1 = p1.open();

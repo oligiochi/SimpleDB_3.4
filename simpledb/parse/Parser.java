@@ -26,6 +26,10 @@ public class Parser {
       return lex.eatId();
    }
    
+   
+   /** 
+    * @return Constant
+    */
    public Constant constant() {
       if (lex.matchStringConstant())
          return new Constant(lex.eatStringConstant());

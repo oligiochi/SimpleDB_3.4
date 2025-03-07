@@ -79,6 +79,10 @@ public class RecoveryTest {
       printValues("After recovery:");
    }
 
+   
+   /** 
+    * @param msg
+    */
    // Print the values that made it to disk.
    private static void printValues(String msg) {
       System.out.println(msg);

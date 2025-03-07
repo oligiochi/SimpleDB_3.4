@@ -36,6 +36,12 @@ public class BasicUpdatePlanner implements UpdatePlanner {
       return count;
    }
    
+   
+   /** 
+    * @param data
+    * @param tx
+    * @return int
+    */
    public int executeModify(ModifyData data, Transaction tx) {
       Plan p = new TablePlan(tx, data.tableName(), mdm);
       p = new SelectPlan(p, data.pred());

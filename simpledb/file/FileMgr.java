@@ -10,6 +10,10 @@ public class FileMgr {
    private Map<String,RandomAccessFile> openFiles = new HashMap<>();
    private BlockStats stats;
    
+   
+   /** 
+    * @return BlockStats
+    */
    public BlockStats getStats() {
       return stats;
    }

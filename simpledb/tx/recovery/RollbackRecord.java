@@ -28,6 +28,10 @@ public class RollbackRecord implements LogRecord {
       return ROLLBACK;
    }
 
+   
+   /** 
+    * @return int
+    */
    public int txNumber() {
       return txnum;
    }

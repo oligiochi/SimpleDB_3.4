@@ -34,6 +34,12 @@ class ViewMgr {
       ts.close();
    }
 
+   
+   /** 
+    * @param vname
+    * @param tx
+    * @return String
+    */
    public String getViewDef(String vname, Transaction tx) {
       String result = null;
       Layout layout = tblMgr.getLayout("viewcat", tx);

@@ -23,6 +23,10 @@ public class TokenizerTest {
          printCurrentToken(tok);
    }
 
+   
+   /** 
+    * @return String
+    */
    private static String getStringFromUser() {
       System.out.println("Enter tokens:");
       Scanner sc = new Scanner(System.in);

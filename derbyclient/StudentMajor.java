@@ -29,6 +29,11 @@ public class StudentMajor {
       }
    }
    
+   
+   /** 
+    * @param rs
+    * @throws SQLException
+    */
    private static void printSchema(ResultSet rs) throws SQLException {
       System.out.println("\nHere is the schema:");
       ResultSetMetaData md = rs.getMetaData();

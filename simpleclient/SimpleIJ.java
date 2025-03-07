@@ -35,6 +35,11 @@ public class SimpleIJ {
       sc.close();
    }
 
+   
+   /** 
+    * @param stmt
+    * @param cmd
+    */
    private static void doQuery(Statement stmt, String cmd) {
       try (ResultSet rs = stmt.executeQuery(cmd)) {
          ResultSetMetaData md = rs.getMetaData();

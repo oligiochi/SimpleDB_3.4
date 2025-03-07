@@ -24,6 +24,10 @@ public class StartRecord implements LogRecord {
       return START;
    }
    
+   
+   /** 
+    * @return int
+    */
    public int txNumber() {
       return txnum;
    }

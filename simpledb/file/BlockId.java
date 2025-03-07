@@ -17,6 +17,10 @@ public class BlockId {
       return filename;
    }
 
+   
+   /** 
+    * @return int
+    */
    public int number() {
       return blknum;
    }

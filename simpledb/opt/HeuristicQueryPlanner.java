@@ -68,6 +68,11 @@ public class HeuristicQueryPlanner implements QueryPlanner {
       return bestplan;
    }
    
+   
+   /** 
+    * @param current
+    * @return Plan
+    */
    private Plan getLowestJoinPlan(Plan current) {
       TablePlanner besttp = null;
       Plan bestplan = null;

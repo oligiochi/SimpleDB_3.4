@@ -42,6 +42,11 @@ public class SelectScan implements UpdateScan {
 		return false;
 	}
 
+	
+	/** 
+	 * @param fldname
+	 * @return int
+	 */
 	public int getInt(String fldname) {
 		return s.getInt(fldname);
 	}

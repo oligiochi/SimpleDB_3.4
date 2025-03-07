@@ -31,6 +31,10 @@ public class NetworkConnection extends ConnectionAdapter {
       }
    }
    
+   
+   /** 
+    * @throws SQLException
+    */
    public void close() throws SQLException {
       try {
          rconn.close();

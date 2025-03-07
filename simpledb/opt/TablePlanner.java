@@ -97,6 +97,12 @@ class TablePlanner {
       return null;
    }
    
+   
+   /** 
+    * @param current
+    * @param currsch
+    * @return Plan
+    */
    private Plan makeIndexJoin(Plan current, Schema currsch) {
       for (String fldname : indexes.keySet()) {
          String outerfield = mypred.equatesWithField(fldname);

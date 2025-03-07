@@ -47,6 +47,10 @@ public class RID {
 		return blknum == r.blknum && slot==r.slot;
 	}
 
+	
+	/** 
+	 * @return String
+	 */
 	public String toString() {
 		return "[" + blknum + ", " + slot + "]";
 	}

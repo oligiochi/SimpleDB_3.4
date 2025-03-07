@@ -34,6 +34,10 @@ public class SetIntRecord implements LogRecord {
       return SETINT;
    }
 
+   
+   /** 
+    * @return int
+    */
    public int txNumber() {
       return txnum;
    }
